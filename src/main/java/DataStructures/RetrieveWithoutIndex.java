@@ -2,8 +2,9 @@ package DataStructures;
 
 import java.util.Scanner;
 
-public class Array {
+public class RetrieveWithoutIndex {
     public static void main(String[] args) {
+
         int [] arrayExample = new int[5];
 
         arrayExample[0] = 1;
@@ -12,18 +13,17 @@ public class Array {
         arrayExample[3] = 43;
         arrayExample[4] = 0;
 
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter element to search:\t");
+        int element = scanner.nextInt();
+        int index = -1;
 
         for (int i=0; i< arrayExample.length; i++) {
-            System.out.println(arrayExample[i]);
+            if (arrayExample[i]==element){
+                index=i;
+                break;
+            }
         }
-
-        // type 2 of array with enhanced for loop
-
-        int [] arrayExample2 = {1, 21, -3, 43, 0};
-
-        for (int j : arrayExample2) {
-                System.out.println(j);
-        }
-
+        System.out.println("Index: "+index);
     }
 }
