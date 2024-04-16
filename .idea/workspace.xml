@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05455cd6-e467-4b5d-9af1-a1dbcf9bdf1c" name="Changes" comment="bubble sort update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DataStructures/SortingAlgo/SelectionSort.java" afterDir="false" />
+    <list default="true" id="05455cd6-e467-4b5d-9af1-a1dbcf9bdf1c" name="Changes" comment="selection sort update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DataStructures/SortingAlgo/InsertionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +46,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SelectionSort">
+  <component name="RunManager" selected="Application.InsertionSort">
     <configuration name="AddingNewElementAtTheEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DataStructures.Arrays.AddingNewElementAtTheEnd" />
       <module name="DataStructuresAndAlgorithms_2024" />
@@ -86,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RetrieveWithoutIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataStructures.Arrays.RetrieveWithoutIndex" />
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataStructures.SortingAlgo.InsertionSort" />
       <module name="DataStructuresAndAlgorithms_2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataStructures.Arrays.*" />
+          <option name="PATTERN" value="DataStructures.SortingAlgo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.DeleteByNull" />
         <item itemvalue="Application.AddingNewElementAtTheEnd" />
-        <item itemvalue="Application.RetrieveWithoutIndex" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713190348424</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="selection sort update">
+      <created>1713260302747</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713260302747</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,6 +214,7 @@
     <MESSAGE value="array update" />
     <MESSAGE value="sort update" />
     <MESSAGE value="bubble sort update" />
-    <option name="LAST_COMMIT_MESSAGE" value="bubble sort update" />
+    <MESSAGE value="selection sort update" />
+    <option name="LAST_COMMIT_MESSAGE" value="selection sort update" />
   </component>
 </project>
