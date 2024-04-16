@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05455cd6-e467-4b5d-9af1-a1dbcf9bdf1c" name="Changes" comment="sort update">
+    <list default="true" id="05455cd6-e467-4b5d-9af1-a1dbcf9bdf1c" name="Changes" comment="bubble sort update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DataStructures/SortingAlgo/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DataStructures/SortingAlgo/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataStructures/SortingAlgo/BubbleSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +32,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2edum3sUaFWtc8easC9vGk5NMJd" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,22 +46,9 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BubbleSort">
+  <component name="RunManager" selected="Application.SelectionSort">
     <configuration name="AddingNewElementAtTheEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DataStructures.Arrays.AddingNewElementAtTheEnd" />
-      <module name="DataStructuresAndAlgorithms_2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DataStructures.Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataStructures.Arrays.Array" />
       <module name="DataStructuresAndAlgorithms_2024" />
       <extension name="coverage">
         <pattern>
@@ -110,13 +99,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataStructures.SortingAlgo.SelectionSort" />
+      <module name="DataStructuresAndAlgorithms_2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataStructures.SortingAlgo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.DeleteByNull" />
         <item itemvalue="Application.AddingNewElementAtTheEnd" />
         <item itemvalue="Application.RetrieveWithoutIndex" />
-        <item itemvalue="Application.Array" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713082216057</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="bubble sort update">
+      <created>1713190348424</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713190348424</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,6 +206,7 @@
     <MESSAGE value="retrieve without index commit" />
     <MESSAGE value="array update" />
     <MESSAGE value="sort update" />
-    <option name="LAST_COMMIT_MESSAGE" value="sort update" />
+    <MESSAGE value="bubble sort update" />
+    <option name="LAST_COMMIT_MESSAGE" value="bubble sort update" />
   </component>
 </project>
