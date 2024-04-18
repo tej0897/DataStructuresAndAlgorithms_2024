@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05455cd6-e467-4b5d-9af1-a1dbcf9bdf1c" name="Changes" comment="selection sort update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DataStructures/SortingAlgo/InsertionSort.java" afterDir="false" />
+    <list default="true" id="05455cd6-e467-4b5d-9af1-a1dbcf9bdf1c" name="Changes" comment="insertion sort update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -194,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713260302747</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="insertion sort update">
+      <created>1713293385421</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1713293385421</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +221,7 @@
     <MESSAGE value="sort update" />
     <MESSAGE value="bubble sort update" />
     <MESSAGE value="selection sort update" />
-    <option name="LAST_COMMIT_MESSAGE" value="selection sort update" />
+    <MESSAGE value="insertion sort update" />
+    <option name="LAST_COMMIT_MESSAGE" value="insertion sort update" />
   </component>
 </project>
